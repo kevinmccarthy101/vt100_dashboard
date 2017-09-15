@@ -3,24 +3,33 @@
 #ifndef VT100_DASHBOARD_H_
 #define VT100_DASHBOARD_H_
 
-parmDataT parmData[NUM_SCR][NUM_PARMS] =
+parmDataT parmData[NUM_PARMS] =
 
         {
-         // Screen 1
+
             {
                 // Name  Row Col Value Formay Row Col Unit
-//VB_auto_fill_parmDataT_here_scr1
+Screen1
 			},
-						 
-         // Screen 2
+
+
            {
 		      // Name  Row Col Value Formay Row Col Unit
-           }
+Screen2
+           },
+
+           {
+		      // Name  Row Col Value Formay Row Col Unit
+Screen3
+           }   
+		   
 		};   
 
 
 typedef enum //parm_index
-//VB_auto_fill_parm_index_t_here
+//VB_auto_fill_parm_index_t_here_scr1
+//VB_auto_fill_parm_index_t_here_scr2
+//VB_auto_fill_parm_index_t_here_scr3
 parm_index_t;
 
 
@@ -42,7 +51,7 @@ typedef struct
                 char    parmUnit[1];
             } parmDataT;
 
-extern parmDataT 	parmData[NUM_SCR][NUM_PARMS];
+extern parmDataT 	parmData[[NUM_PARMS];
 
 
 // Screen Index
