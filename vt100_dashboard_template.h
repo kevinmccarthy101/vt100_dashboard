@@ -1,4 +1,4 @@
-//15Sept17
+//18Sept17
 
 #ifndef VT100_DASHBOARD_H_
 #define VT100_DASHBOARD_H_
@@ -7,18 +7,18 @@
 #define     NUM_PARMS   	 (NUM_SCR * 24 ) //Cols, Rows
 
 
-parmDataT parmData[NUM_PARMS] =
+parmDataT parmData[NUM_SCR][NUM_PARMS]] =
 	{
 		{
-		// Name  Row Col Value Formay Row Col Unit
+		// Name  Row Col Value Format Row Col Unit
 VB_auto_fill_parmData_Screen1
 		},
 		{
-		// Name  Row Col Value Formay Row Col Unit
+		// Name  Row Col Value Format Row Col Unit
 VB_auto_fill_parmData_Screen2
 		},
 		{
-		// Name  Row Col Value Formay Row Col Unit
+		// Name  Row Col Value Format Row Col Unit
 VB_auto_fill_parmData_Screen3
 		}    
 	};   // paraDataT
